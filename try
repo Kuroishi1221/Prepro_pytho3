@@ -1,0 +1,13 @@
+"""
+programing
+"""
+def main():
+    """
+    start
+    """
+    num1 = int(input())
+    print("Price    %s THB"  %num1)
+    print("Service  %.2f THB" %(num1*0.10))
+    print("VAT      %.2f THB" %(num1*0.08)+(num1*0.10))
+    print("Total    %.2f THB" %(num1+(num1*0.10)+(num1*0.07)))
+main()
